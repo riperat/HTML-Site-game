@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/startPage.css">
+    <title>Choose type</title>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../Adventure/js/GameManager.js"></script>
+    <script src="../Adventure/js/Hero.js"></script>
+</head>
+
+
+<body>
+    <div class="header">
+        <h1> Choose your class</h1>
+
+    </div>
+
+
+    <div class="interface">
+
+
+        <a href="#" onclick="GameMannageer.setGameStart('Mage')">
+            <img src="css/img/mage.jpg" alt="Mage">
+
+            <div>
+                <h1> Mage</h1>
+                <p>Mages are practitioners of magic, the ability to attain objectives
+                    or acquire knowledge or wisdom using supernatural means.
+                    They have strong attacks that use mana but they have low hp and def.</p>
+            </div>
+        </a>
+
+
+        <a href="#" onclick="GameMannageer.setGameStart('Assasin')">
+            <img src="css/img/assasin.jpg" alt="Assasin">
+            <div>
+                <h1> Assasin</h1>
+                <p>The assasin is the person you pray that you dont see in your life.
+                    They have med hp, def, and attack.
+                     </p>
+            </div>
+        </a>
+
+
+        <a href="#" onclick="GameMannageer.setGameStart('Warrior')">
+            <img src="css/img/warrior.jpg" alt="Warrior">
+            <div>
+                <h1> Warrior</h1>
+                <p>Warriors are special people that have trained since youth to fight against
+                    everything and anything they come across.
+                    They have high hp and def but low attack.
+                </p>
+            </div>
+        </a>
+
+
+    </div>
+
+
+</body>
+
+
+</html>

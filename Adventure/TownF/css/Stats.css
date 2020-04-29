@@ -1,0 +1,70 @@
+body {
+    background-color: #1b1b1b;
+    font-family: 'Titillium Web', sans-serif;
+    background: url(../../css/img/dungeon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    font-family: 'Aclonica';font-size: 22px;
+  }
+ 
+  
+  .back h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #bb691d8c;
+    padding: 12px 0 4px;
+    text-align: center;
+    box-shadow: 0 4px 10px 4px rgb(202, 72, 43);
+    font-family: 'Aclonica';font-size: 22px;
+  }
+  
+  .interface h3 {
+    margin: auto;
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: #bd8484;
+    padding: 12px 20px 4px;
+    text-align: center;
+    
+    font-family: 'Aclonica';font-size: 22px;
+  }
+ 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.interface {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+
+
+  
+  .back {
+      padding: 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+
+    .interface div {
+      padding: 15px;
+      max-width: 460px ;
+      margin: 25px auto;
+      background-color: #83272788;
+      box-shadow: 0 4px 10px 4px rgb(202, 72, 43);
+      transition: .5s ease;
+      
+    }
+    
+  

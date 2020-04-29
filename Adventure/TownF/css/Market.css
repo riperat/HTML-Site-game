@@ -1,0 +1,74 @@
+body {
+    background-color: #1b1b1b;
+    font-family: 'Titillium Web', sans-serif;
+    background: url(../../css/img/market2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    font-family: 'Aclonica';font-size: 22px;
+  }
+  
+
+  .interface h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #380505;
+    padding: 12px 0 4px;
+    font-family: 'Aclonica';font-size: 22px;
+  }
+ 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+
+.interface div {
+  padding: 15px;
+  max-width: 460px ;
+  margin: 25px auto;
+  transition: .5s ease;
+  
+}
+
+.interface a:hover div {
+  box-shadow: 0px 0px 40px 16px rgb(143, 60, 60);
+}
+
+.interface p {
+  font-family: Aclonica;
+  font-size: 17px;
+  color: #020b0e;
+  
+  line-height: 20px;
+  
+}
+.interface ol {
+  padding: 12px 20px 4px;
+  font-family: Aclonica;
+  font-size: 17px;
+  color: #f0c3c2;
+  background-color: #41090973;
+  
+  line-height: 20px;
+}
+.back h1 {
+  font-family: 'Acme', sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #410909;
+  padding: 12px 70px 12px;
+  text-align: center;
+  font-family: 'Aclonica';font-size: 22px;
+}
+.back {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
